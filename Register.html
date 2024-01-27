@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://db.onlinewebfonts.com/c/64a2cfb57c4a5df1013e4f2e5bf3eff3?family=SF+Pro+Display+Medium"
+      rel="stylesheet"
+    />
+    <link rel="short icon" href="Images/Untitled-2.png">
+    <link rel="stylesheet" href="Css/font.css" />
+    <link rel="stylesheet" href="Css/reset.css" />
+    <link rel="stylesheet" href="Css/Register.css" />
+    <script src="https://www.google.com/recaptcha/api.js?render=v3_site_key"></script>
+    <title>KOI - Official Website / Register</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="background">
+        <header>
+          <a class="head_logo_click" href="Home.html">
+            <h1>KOI</h1>
+          </a>
+
+          <!-- Header Pages -->
+
+          <nav class="pages">
+            <ul class="pages_arrangement">
+              <li><a href="Home.html">Home</a></li>
+              <li><a href="Products.html">Products</a></li>
+              <li><a href="AboutUs.html">About Us</a></li>
+              <li><a href="contact.html">Contacts</a></li>
+            </ul>
+          </nav>
+
+          <!-- Header Icons -->
+
+          <div class="icons">
+            <img src="Images/search_icons.svg" alt="Search_icon" />
+            <a href="Login.html">
+              <img src="Images/Account_icon.svg" alt="Account_icon style" />
+            </a>
+            <div class="Buy_now">
+              <img src="Images/buy_icon.svg" alt="Buy_icon" />
+              <span>Buy</span>
+            </div>
+          </div>
+        </header>
+
+        <!-- Login -->
+
+        <main>
+          <div class="wrapper">
+            <form i id="myForm" action="#" method="post" onsubmit="return validateForm()">
+                <h1>Create Your KOI Account</h1>
+        
+                <div class="input-label">Email address</div>
+<div class="input_box">
+    <input type="text" id="email" placeholder="Email" required />
+    <i class="fa-solid fa-user" style="color: #000000"></i>
+</div>
+<span id="email-error" class="error_message"></span>
+
+<div class="input-label">Password</div>
+<div class="input_box">
+    <i id="iconLock1" class="fa fa-lock"></i>
+    <input type="password" id="password" />
+</div>
+<span id="password-error" class="error_message"></span>
+
+<div class="input-label">Enter new password again</div>
+<div class="input_box">
+    <i id="iconLock2" class="fa fa-lock"></i>
+    <input type="password" id="password2" />
+</div>
+
+<div class="g-recaptcha" data-sitekey="6LcATkwpAAAAAD07pS1GmjdyX8AQeDcRIjV9VOpn"></div>
+<span class="Privacy">By Creating an account, you confirm that you agree to KOI <br />
+    <a href="">Privacy policy</a> and
+    <a href="">Terms of Use.</a>
+</span>
+
+<span id="submitted_successfully" class="successfully_message"></span>
+<button onclick="registration()" type="submit" class="btn">Create Account</button>
+<div class="register_link">
+    <span>Already have an account? <a href="Login.html">Log In Now</a></span>
+</div>
+
+<div class="help">
+    <span class="Privacy_Policy">Need help with registration? <a href="">FAQ</a> <a href="">KOI Support</a></span>
+</div>
+</form>
+</div>
+</div>
+
+          </div>
+        </main>
+      </div>
+    </div>
+    <script src="JS/register.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9fef183616.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

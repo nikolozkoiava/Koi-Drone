@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://db.onlinewebfonts.com/c/64a2cfb57c4a5df1013e4f2e5bf3eff3?family=SF+Pro+Display+Medium" rel="stylesheet">
+    <link rel="short icon" href="Images/Untitled-2.png">
+    <link rel="stylesheet" href="Css/font.css">
+    <link rel="stylesheet" href="Css/reset.css">
+    <link rel="stylesheet" href="Css/HomeStyle.css">
+    <title>KOI - Official Website / Home</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="container">
+    <div class="background">
+      <header>
+    <div class="burger_arragment" id="header">
+        <div class="burger">
+          <i
+            onclick="showSidebar()"
+            class="fa-solid fa-bars-staggered fa-2xl"
+            style="color: #ffffff"
+          ></i>
+        </div>
+        <div class="header_container">
+        <a class="head_logo_click" href="Home.html">
+          <h1>KOI</h1>
+        </a>
+      
+      <!-- Header Pages -->
+
+      
+      <nav class="navigation">
+        <ul class="sidebar">
+          <i
+          onclick="hideSidebar()"
+          class="fa-solid fa-xmark fa-2xl"
+          style="color: #ffffff"
+        ></i>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="Products.html">Products</a></li>
+          <li><a href="AboutUs.html">About Us</a></li>
+          <li><a href="contact.html">Contacts</a></li>
+        </ul>
+        <ul class="pages_arrangement">
+          <li><a class="hideOnmobile" href="Home.html">Home</a></li>
+          <li><a class="hideOnmobile" href="Products.html">Products</a></li>
+          <li><a class="hideOnmobile"href="AboutUs.html">About Us</a></li>
+          <li><a class="hideOnmobile" href="contact.html">Contacts</a></li>
+        </ul>
+      </nav>
+
+      
+      <!-- Header Icons -->
+      
+      <div class="icons">
+        <img src="Images/search_icons.svg" alt="Search_icon">
+        <a href="Login.html">
+          <img src="Images/Account_icon.svg" alt="Account_icon style">
+        </a>
+        <div class="Buy_now">
+          <img src="Images/buy_icon.svg" alt="Buy_icon">
+          <span>Buy</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  </header>
+</div>
+
+<div class="background_title">
+  <h2>Horizon</h2>
+  <p>Start a world of adventure and passion flying with Cyberdid</p>
+  <div class="learn_more">
+    <span>learn more <i class="fa-solid fa-angle-right xs" style="color: #ffffff; font-size: 12px;"></i></span>
+    <span>Where to buy <i class="fa-solid fa-angle-right xs" style="color: #ffffff; font-size: 12px;"></i></span>
+  </div>
+</div>
+
+
+<!-- Main content -->
+
+<main>
+  <!-- Dorns collection -->
+  <div class="gallary_drones">
+    <div class="drone">
+      <img src="Images/Drone_1.png" alt="drone_image">
+      <div class="text_position_drone">
+        <h3>KOI Air 3</h3>
+        <h4>Inspiration in Focus</h4>
+        <a href=""></a>
+        <span>Buy Now <i class="fa-solid fa-angle-right xs" style="color: #0070d4;"></i></span>
+      </a>
+      </div>
+    </div>
+    
+    <div class="drone">
+      <img src="Images/Drone_2.png" alt="drone_image">
+      <div class="text_position_drone">
+        <h3>KOI Inspire 3</h3>
+        <h4>Master the Unseen</h4>
+        <a href=""></a>
+        <span>Buy Now <i class="fa-solid fa-angle-right xs" style="color: #0070d4;"></i></span>
+      </a>
+      </div>
+    </div>
+    
+    <div class="drone">
+      <img src="Images/Drone_2.png" alt="drone_image">
+      <div class="text_position_drone">
+        <h3>KOI Mavic 3 pro</h3>
+        <h4>Inspiration in Focus</h4>
+        <a href=""></a>
+        <span>Buy Now <i class="fa-solid fa-angle-right xs" style="color: #0070d4;"></i></span>
+      </a>
+      </div>
+    </div>
+    
+    <div class="drone">
+      <img src="Images/Drone_2.png" alt="drone_image">
+      <div class="text_position_drone">
+        <h3> KOI Avata</h3>
+        <h4>Borne to Flaty</h4>
+        <a href=""></a>
+        <span>Buy Now <i class="fa-solid fa-angle-right xs" style="color: #0070d4;"></i></span>
+      </a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Drone video slider -->
+  
+  <div class="slider" onmousedown="startDrag(event)">
+    <div class="list" id="sliderList" ondragstart="return false;">
+      <div class="item">
+        <video autoplay muted loop src="videos/Video_1.mp4"></video>
+      </div>
+      <div class="item">
+        <video autoplay muted loop src="videos/Video_2.mp4"></video>
+      </div>
+      <div class="item">
+        <video autoplay muted loop src="videos/Video_3.mov"></video>
+      </div>
+      <div class="item">
+        <video autoplay muted loop src="videos/Video_4.mp4"></video>
+      </div>
+      <div class="item">
+        <video autoplay muted loop src="videos/Video_5.mp4"></video>
+      </div>
+    </div>
+    <div class="buttons">
+      <button class="left" onclick="moveSlider(-1)"><i class="fa-solid fa-angle-left" style="color: #ffffff;"></i></button>
+      <button class="right" onclick="moveSlider(1)"><i class="fa-solid fa-angle-right" style="color: #ffffff;"></i></button>
+    </div>
+    <ul class="dots" ondragstart="return false;">
+      <li class="dot active" onclick="currentSlide(1)"></li>
+      <li class="dot" onclick="currentSlide(2)"></li>
+      <li class="dot" onclick="currentSlide(3)"></li>
+      <li class="dot" onclick="currentSlide(4)"></li>
+      <li class="dot" onclick="currentSlide(5)"></li>
+    </ul>
+  </div>
+
+  <!-- Drone Baners  -->
+
+  <div class="Drones_Fields">
+    <h3>Explore <span>KOI</span> Products in Different Fields </h3>
+    <div class="Drones_arrangement">
+    <div class="drone_baner">
+      <img src="Images/Drone_baner_1.png" alt="drone_baner_image">
+      <div class="drone_baner_text">
+      <h4>Video production</h4>
+      <p>Tools for aerial and ground filmmaking at a <br> professional level.</p>
+      <span>Learn More <i class="fa-solid fa-angle-right xs" style="color: #ffffff; font-size: 10px;"></i></span>
+    </div>
+    </div>
+    <div class="drone_baner">
+      <img src="Images/Drone_baner_2.png" alt="drone_baner_image">
+      <div class="drone_baner_text">
+      <h4>Enterprise</h4>
+      <p>Innovative drone solutions tailored for the next <br> era of professional tasks.</p>
+      <span>Learn More <i class="fa-solid fa-angle-right xs" style="color: #ffffff; font-size: 10px;"></i></span>
+    </div>
+    </div>
+    <div class="drone_baner">
+      <img src="Images/Drone_baner_3.png" alt="drone_baner_image">
+      <div class="drone_baner_text">
+      <h4>Agriculture</h4>
+      <p> Effective Advanced and smart farming <br> solutions designed for efficiency and productivity. </p>
+      <span>Learn More <i class="fa-solid fa-angle-right xs" style="color: #ffffff; font-size: 10px;"></i></span>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <!-- More information -->
+
+  <div class="more_information">
+    <div class="information_container">
+      <div class="information_icons">
+        <img src="Images/Shop_bag.svg" alt="information_icons">
+        <h5>Buy Now</h5>
+        <span>Learn More <i class="fa-solid fa-angle-right xs" style="color: #0070D5; font-size: 10px;"></i></span>
+      </div>
+      <div class="information_icons">
+        <img src="Images/Support_iocn.svg" alt="information_icons">
+        <h5>Support</h5>
+        <span>Learn More <i class="fa-solid fa-angle-right xs" style="color: #0070D5; font-size: 10px;"></i></span>
+      </div>
+      <div class="information_icons">
+        <a href="flysave.html">
+          <img src="Images/Fly_safe.svg" alt="information_icons">
+          <h5>Fly Safe</h5>
+          <span>Learn More <i class="fa-solid fa-angle-right xs" style="color: #0070D5; font-size: 10px;"></i></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- Footer -->
+
+<footer>
+  <div class="vertical_line"></div>
+  <div class="footer_container">
+    <div class="row">
+      <div class="footer_items">
+        <h6>Product Categories</h6>
+        <ul>
+          <li><a href="#">Consumer</a></li>
+          <li><a href="#">Components</a></li>
+          <li><a href="#">Enterprise</a></li>
+          <li><a href="#">Professional</a></li> 
+        </ul>
+      </div>
+      <div class="footer_items">
+        <h6>Where to Buy</h6>
+        <ul>
+          <li><a href="#">KOI Online Store</a></li> 
+          <li><a href="#">KOI-Operated Store</a></li> 
+          <li><a href="#">KOI Store App</a></li>
+      
+        </ul>
+      </div>
+      <div class="footer_items">
+        <h6>Service Plans</h6>
+        <ul>
+          <li><a href="#">KOI Care Refresh</a></li>
+          <li><a href="#">KOI Care Pro</a></li>
+          <li><a href="#">KOI Care Enterprise</a></li>
+          <li><a href="#">KOI Maintenance Program</a></li> 
+        </ul>
+      </div>
+      <div class="footer_items">
+        <h6>Community</h6>
+        <ul>
+          <li><a href="#">SkyPixel</a></li>
+          <li><a href="#">KOI Forum</a></li>
+          <li><a href="#">Developer</a></li>
+        </ul>
+      </div>
+      <div class="footer_items">
+        <h6>Explore</h6>
+        <ul>
+          <li><a href="#">Newsroom</a></li> 
+          <li><a href="#">Buying Guides</a></li>
+          <li><a href="#">STEAM Education</a></li>
+        </ul>
+      </div>
+      <div class="footer_items">
+        <h6>Support</h6>
+        <ul>
+          <li><a href="#">Product Support</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Download Center</a></li>
+          <li><a href="#">Security and Privacy</a></li>
+        </ul>
+      </div>
+      <div class="footer_items special">
+      <h6>Subscribe</h6>
+      <span>Join our newsletter to stay up to date on features and releases.</span>
+      <form action="#">
+        <input type="email" placeholder="Your Email Address" required>
+        <button type="submit"><i class="fa-regular fa-envelope" style="color: #ffffff; font-size: 15px;"></i></button>
+      </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer_information">
+    <div class="info">
+      <a href="Home.html">
+        <h2>KOI</h2>
+      </a>
+      <a href="">Who We Are</a>
+      <a href="">Contact Us</a>
+      <a href="">Carrers</a>
+      <a href="">KOI Automotive</a>
+      <a class="footer_icons">
+        <a href=""><i class="fa-brands fa-facebook" style="color: #ffffff; font-size: 15px;"></i></a>
+        <a href=""><i class="fa-brands fa-instagram" style="color: #ffffff; font-size: 15px "></i></a>
+        <a href=""><i class="fa-brands fa-x-twitter" style="color: #ffffff; font-size: 15px"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin" style="color: #ffffff; font-size: 15px"></i></a>
+        <a href=""><i class="fa-brands fa-youtube" style="color: #ffffff; font-size: 15px"></i></a>
+      </a>
+    </div>
+    <div class="footer_vertical_line">
+       <div class="footer_more_info">
+      <a href="">KOI Private Policy</a>
+      <a href="">Use of Cookies</a>
+      <a href="">Terms of Use</a>
+      <a href="">Business Information</a>
+    </div>
+    <a class="Copyright" href="">Copyright © 2023 KOI All Rights Reserved.</a>
+    </div>
+  </div>
+</footer>
+ </body>
+</div>
+
+<script src="JS/header.js"></script>
+<script src="JS/burger.js"></script>
+<script src="JS/slider.js"></script>
+<script src="https://kit.fontawesome.com/9fef183616.js" crossorigin="anonymous"></script>
+</body>
+</html>

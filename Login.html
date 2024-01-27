@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://db.onlinewebfonts.com/c/64a2cfb57c4a5df1013e4f2e5bf3eff3?family=SF+Pro+Display+Medium"
+      rel="stylesheet"
+    />
+    <link rel="short icon" href="Images/Untitled-2.png">
+    <link rel="stylesheet" href="Css/font.css" />
+    <link rel="stylesheet" href="Css/reset.css" />
+    <link rel="stylesheet" href="Css/Login.css" />
+    <title>KOI - Official Website / Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="background">
+        <header>
+          <a class="head_logo_click" href="Home.html">
+            <h1>KOI</h1>
+          </a>
+
+          <!-- Header Pages -->
+
+          <nav class="pages">
+            <ul class="pages_arrangement">
+              <li><a href="Home.html">Home</a></li>
+              <li><a href="Products.html">Products</a></li>
+              <li><a href="AboutUs.html">About Us</a></li>
+              <li><a href="contact.html">Contacts</a></li>
+            </ul>
+          </nav>
+
+          <!-- Header Icons -->
+
+          <div class="icons">
+            <img src="Images/search_icons.svg" alt="Search_icon" />
+            <a href="Login.html">
+              <img src="Images/Account_icon.svg" alt="Account_icon style" />
+            </a>
+            <div class="Buy_now">
+              <img src="Images/buy_icon.svg" alt="Buy_icon" />
+              <span>Buy</span>
+            </div>
+          </div>
+        </header>
+
+        <!-- Login -->
+
+        <main>
+          <div class="wrapper">
+            <form action="" onsubmit="return validateForm()" onchange="createCookie()" >
+              <h1>Login in to KOI</h1>
+          
+              <div class="input-label">Email address</div>
+              <div class="input_box">
+                <input type="text" id="email" placeholder="Email" required />
+                <i class="fa-solid fa-user" style="color: #000000"></i>
+              </div>
+              <span id="email-error" class="error-message"></span>
+          
+              <div class="input-label">Password</div>
+              <div class="input_box">
+                <input type="password" id="password" placeholder="Password" required />
+                <i class="fa-solid fa-lock" style="color: #000000"></i>
+              </div>
+              <span id="password-error" class="error-message"></span>
+          
+              <div class="remember_forgot">
+                <label><input type="checkbox" id="savePassword" /> Remember me</label>
+                <a href="#">Forget password?</a>
+              </div>
+          
+              <button  type="button" class="btn" onclick="handleLogin()">Log In</button>
+          
+              <div class="register_link">
+                <span>New user? <a href="Register.html">Create your KOI Account</a></span>
+              </div>
+          
+              <span id="submitted_successfully" class="successfully_message"></span>
+          
+              <div class="Continue_With_fc">
+                <a href="#">
+                  <i class="fa-brands fa-facebook" style="color: #1e3050; font-size: 16px"></i>
+                  <span>Continue With Facebook</span>
+                </a>
+              </div>
+          
+              <div class="Continue_With_go">
+                <a href="#">
+                  <img src="Images/Google_icons.svg" alt="Google_icon" />
+                  <span>Continue With Google</span>
+                </a>
+              </div>
+          
+              <p class="Privacy_Policy">
+                By continuing, you hereby agree to the <span>Privacy Policy</span> and <br />
+                <span>Terms of Use.</span>
+              </p>
+            </form>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script src="JS/cookies.js"></script>
+    <script src="JS/login.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9fef183616.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

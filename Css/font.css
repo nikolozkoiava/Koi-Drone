@@ -1,0 +1,22 @@
+ @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+  @font-face {
+    font-family: "SF Pro Display Medium";
+    src: url("https://db.onlinewebfonts.com/t/64a2cfb57c4a5df1013e4f2e5bf3eff3.eot");
+    src: url("https://db.onlinewebfonts.com/t/64a2cfb57c4a5df1013e4f2e5bf3eff3.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/64a2cfb57c4a5df1013e4f2e5bf3eff3.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/64a2cfb57c4a5df1013e4f2e5bf3eff3.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/64a2cfb57c4a5df1013e4f2e5bf3eff3.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/64a2cfb57c4a5df1013e4f2e5bf3eff3.svg#SF Pro Display Medium")format("svg");
+}
+
+@font-face {
+    font-family: "SF Pro Display Medium";
+    src: url("https://db.onlinewebfonts.com/t/64a2cfb57c4a5df1013e4f2e5bf3eff3.eot");
+    src: url("https://db.onlinewebfonts.com/t/64a2cfb57c4a5df1013e4f2e5bf3eff3.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/64a2cfb57c4a5df1013e4f2e5bf3eff3.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/64a2cfb57c4a5df1013e4f2e5bf3eff3.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/64a2cfb57c4a5df1013e4f2e5bf3eff3.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/64a2cfb57c4a5df1013e4f2e5bf3eff3.svg#SF Pro Display Medium")format("svg");
+}

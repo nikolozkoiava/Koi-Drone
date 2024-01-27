@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://db.onlinewebfonts.com/c/64a2cfb57c4a5df1013e4f2e5bf3eff3?family=SF+Pro+Display+Medium"
+      rel="stylesheet"
+    />
+    <link rel="short icon" href="Images/Untitled-2.png">
+    <link rel="stylesheet" href="Css/font.css" />
+    <link rel="stylesheet" href="Css/reset.css" />
+    <link rel="stylesheet" href="Css/Products.css" />
+    <title>KOI - Official Website / Product</title>
+  </head>
+  <body>
+    <!-- Header -->
+  <div class="container">
+    <div class="background">
+      <header>
+    <div class="burger_arragment">
+        <div class="burger">
+          <i
+            onclick="showSidebar()"
+            class="fa-solid fa-bars-staggered fa-2xl"
+            style="color: #ffffff"
+          ></i>
+        </div>
+        <div class="header_container">
+        <a class="head_logo_click" href="Home.html">
+          <h1>KOI</h1>
+        </a>
+      
+      <!-- Header Pages -->
+
+      
+      <nav class="navigation">
+        <ul class="sidebar">
+          <i
+          onclick="hideSidebar()"
+          class="fa-solid fa-xmark fa-2xl"
+          style="color: #ffffff"
+        ></i>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="Products.html">Products</a></li>
+          <li><a href="AboutUs.html">About Us</a></li>
+          <li><a href="contact.html">Contacts</a></li>
+        </ul>
+        <ul class="pages_arrangement">
+          <li><a class="hideOnmobile" href="Home.html">Home</a></li>
+          <li><a class="hideOnmobile" href="Products.html">Products</a></li>
+          <li><a class="hideOnmobile"href="AboutUs.html">About Us</a></li>
+          <li><a class="hideOnmobile" href="contact.html">Contacts</a></li>
+        </ul>
+      </nav>
+
+      
+      <!-- Header Icons -->
+      
+      <div class="icons">
+        <img src="Images/search_icons.svg" alt="Search_icon">
+        <a href="Login.html">
+          <img src="Images/Account_icon.svg" alt="Account_icon style">
+        </a>
+        <div class="Buy_now">
+          <img src="Images/buy_icon.svg" alt="Buy_icon">
+          <span>Buy</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  </header>
+</div>
+
+      <main>
+        <section>
+          <h1>Unlock adventure in the sky</h1>
+          <div class="drone_cards">
+            <div class="drone_cards_list">
+              <div class="drone_card_img">
+                <img src="Images/drone_card1.png" alt="" />
+              </div>
+              <div class="drone_card_text">
+                <h2>Aerial Photography</h2>
+              </div>
+            </div>
+            <div class="drone_cards_list">
+              <div class="drone_card_img">
+                <img src="Images/drone_card2.png" alt="" />
+              </div>
+              <div class="drone_card_text">
+                <h2>Immersive Flight</h2>
+              </div>
+            </div>
+            <div class="drone_cards_list">
+              <div class="drone_card_img">
+                <img src="Images/drone_card3.png" alt="" />
+              </div>
+              <div class="drone_card_text">
+                <h2>Aerial Cinematic Tools</h2>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="list_main">
+          <h3>Products</h3>
+          <div class="horizontal_line"></div>
+          <div class="filter_head">
+          <div class="filter_titler">
+            <div class="reset">
+            <h4>Filter</h4>
+            <button id="clearFilter">Reset</button>
+          </div>
+            <h5>Product Series</h5>
+            <div class="filter_tree_item">
+              <div class="tree_leaf_item">
+                <label class="input_check" for="">
+                  <input class="active"  type="radio" data-name="Mavic" name="Drone">
+                  <span>KOI Mavic</span>
+                </label>
+              </div>
+              <div class="tree_leaf_item">
+                <label class="input_check" for="">
+                  <input type="radio" data-name="Air" name="Drone">
+                  <span>KOI Air</span>
+                </label>
+              </div>
+              <div class="tree_leaf_item">
+                <label class="input_check" for="">
+                  <input type="radio"  data-name="Mini" name="Drone">
+                  <span>KOI Mini</span>
+                </label>
+              </div>
+              <div class="tree_leaf_item">
+                <label class="input_check" for="">
+                  <input type="radio" data-name="Avata" name="Drone" >
+                  <span>KOI Avata</span>
+                </label>
+              </div>
+              <div class="tree_leaf_item">
+                <label class="input_check" for="">
+                  <input type="radio" data-name="FPV" name="Drone" >
+                  <span>KOI FPV</span>
+                </label>
+              </div>
+              <div class="tree_leaf_item">
+                <label class="input_check" for="">
+                  <input type="radio" data-name="Inspire" name="Drone">
+                  <span>Inspire</span>
+                </label>
+              </div>
+            </div>
+          </div>
+          
+          <!-- itmes -->
+          
+          <div class="list_products">
+            <div class="index_card_list">
+              <div class="productItem__product" data-name="Mavic" >
+                <div  class="Drone_img_background">
+                  <img src="Images/Drone_Mavic_3.png" alt="item_Drone">
+                </div>
+                <p>KOI Care Refresh Year Plan (KOI Mavic 3 Pro)</p>
+                <span>$399</span>
+              </div>
+              <div class="productItem__product">
+                <div class="Drone_img_background" data-name="Mavic">
+                  <img src="Images/Drone_Mavic3_classic.png" alt="item_Drone">
+                </div>
+                <p>KOI Care Refresh Year Plan (KOI Mavic 3 Classic)</p>
+                <span>$299</span>
+              </div>
+              <div class="productItem__product" data-name="Air" >
+                <div class="Drone_img_background">
+                  <img src="Images/Drone_Air3.png" alt="item_Drone">
+                </div>
+                <p>KOI Care Refresh 2-Year Plan (KOI Air 3)</p>
+                <span>$450</span>
+              </div>
+              <div class="productItem__product" data-name="Air">
+                <div class="Drone_img_background">
+                  <img src="Images/Drone_Air25.png" alt="item_Drone">
+                </div>
+                <p>KOI Care Refresh 2-Year Plan (KOI Air 2S)</p>
+                <span>$355</span>
+              </div>
+              <div class="productItem__product" data-name="Mini">
+                <div class="Drone_img_background">
+                  <img src="Images/Drone_Air3.png" alt="item_Drone">
+                </div>
+                <p>KOI Care Refresh 2-Year Plan (KOI Mini 3 Pro)</p>
+                <span>$450</span>
+              </div>
+              <div class="productItem__product" data-name="Avata">
+                <div class="Drone_img_background">
+                  <img src="Images/Drone_Avata.png" alt="item_Drone">
+                </div>
+                <p>KOI Care Refresh 2-Year Plan (KOI Avata)</p>
+                <span>$350</span>
+              </div>
+              <div class="productItem__product" data-name="Avata">
+                <div class="Drone_img_background">
+                  <img src="Images/Drone_Avata2SE.png" alt="item_Drone">
+                </div>
+                <p>KOI Care Refresh 2-Year Plan (KOI Avata 2 SE)</p>
+                <span>$450</span>
+              </div>
+              <div class="productItem__product" data-name="FPV">
+                <div class="Drone_img_background">
+                  <img src="Images/Drone_FPV.png" alt="item_Drone">
+                </div>
+                <p>KOI Care Refresh 2-Year Plan (KOI FPV)</p>
+                <span>$500</span>
+              </div>
+              <div class="productItem__product" data-name="Inspire">
+                <div class="Drone_img_background">
+                  <img src="Images/Drone_Inspire2.png" alt="item_Drone">
+                </div>
+                <p>KOI Care Refresh (Inspire 2)</p>
+                <span>$650</span>
+              </div>
+              <div class="productItem__product" data-name="Inspire">
+                <div class="Drone_img_background">
+                  <img src="Images/Drone_inspire3.png" alt="item_Drone">
+                </div>
+                <p>KOI Care Pro 2-Year Plan (KOI Inspire 3)</p>
+                <span>$3500</span>
+              </div>
+              <div class="productItem__product" data-name="Mavic">
+                <div class="Drone_img_background">
+                  <img src="Images/Drone_Air2.png" alt="">
+                </div>
+                <p>KOI Care Refresh (Mavic Air 2)</p>
+                <span>$250</span>
+              </div>
+              <div class="productItem__product" data-name="Mavic" >
+                <div class="Drone_img_background">
+                  <img src="Images/Drone_Mavic3_chine.png" alt="item_Drone">
+                </div>
+                <p>KOI Care Refresh 2-Year Plan (KOI Mavic 3 Cine)</p>
+                <span>$599</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      
+      
+      <!--  More information  -->
+      
+      <div class="more_information">
+        <div class="information_container">
+          <div class="information_icons">
+            <img src="Images/Artboard.svg" alt="information_icons">
+            <h5>Free Shipping</h5>
+            <span>Learn More <i class="fa-solid fa-angle-right xs" style="color: #0070D5; font-size: 10px;"></i></span>
+          </div>
+          <div class="information_icons">
+            <img src="Images/paypal.svg" alt="information_icons" style="width: 50px;">
+            <h5> credit cards</h5>
+            <span>Learn More <i class="fa-solid fa-angle-right xs" style="color: #0070D5; font-size: 10px;"></i></span>
+          </div>
+          <div class="information_icons">
+            <a href="flysave.html">
+              <img src="Images/Live_chat.svg" alt="information_icons" style="width: 80%;">
+              <h5>Fly Safe</h5>
+              <span>Learn More <i class="fa-solid fa-angle-right xs" style="color: #0070D5; font-size: 10px;"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+
+       <!-- Footer  -->
+
+      <footer>
+        <div class="vertical_line"></div>
+        <div class="footer_container">
+          <div class="row">
+            <div class="footer_items">
+              <h6>Product Categories</h6>
+              <ul>
+                <li><a href="#">Consumer</a></li>
+                <li><a href="#">Components</a></li>
+                <li><a href="#">Enterprise</a></li>
+                <li><a href="#">Professional</a></li> <!-- Corrected the case of "professional" -->
+              </ul>
+            </div>
+            <div class="footer_items">
+              <h6>Where to Buy</h6>
+              <ul>
+                <li><a href="#">KOI Online Store</a></li> <!-- Updated text for better readability -->
+                <li><a href="#">KOI-Operated Store</a></li> <!-- Updated text for better readability -->
+                <li><a href="#">KOI Store App</a></li>
+                <!-- Removed empty anchor tag -->
+              </ul>
+            </div>
+            <div class="footer_items">
+              <h6>Service Plans</h6>
+              <ul>
+                <li><a href="#">KOI Care Refresh</a></li>
+                <li><a href="#">KOI Care Pro</a></li>
+                <li><a href="#">KOI Care Enterprise</a></li>
+                <li><a href="#">KOI Maintenance Program</a></li> 
+              </ul>
+            </div>
+            <div class="footer_items">
+              <h6>Community</h6>
+              <ul>
+                <li><a href="#">SkyPixel</a></li>
+                <li><a href="#">KOI Forum</a></li>
+                <li><a href="#">Developer</a></li>
+              </ul>
+            </div>
+            <div class="footer_items">
+              <h6>Explore</h6>
+              <ul>
+                <li><a href="#">Newsroom</a></li> 
+                <li><a href="#">Buying Guides</a></li>
+                <li><a href="#">STEAM Education</a></li>
+              </ul>
+            </div>
+            <div class="footer_items">
+              <h6>Support</h6>
+              <ul>
+                <li><a href="#">Product Support</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Download Center</a></li>
+                <li><a href="#">Security and Privacy</a></li>
+              </ul>
+            </div>
+            <div class="footer_items special">
+            <h6>Subscribe</h6>
+            <span>Join our newsletter to stay up to date on features and releases.</span>
+            <form action="#">
+              <input type="email" placeholder="Your Email Address" required>
+              <button type="submit"><i class="fa-regular fa-envelope" style="color: #ffffff; font-size: 15px;"></i></button>
+            </div>
+            </form>
+          </div>
+        </div>
+      
+        <!--  footer information  -->
+
+        <div class="footer_information">
+          <div class="info">
+            <a href="Home.html">
+              <h2>KOI</h2>
+            </a>
+            <a href="">Who We Are</a>
+            <a href="">Contact Us</a>
+            <a href="">Carrers</a>
+            <a href="">KOI Automotive</a>
+            <a class="footer_icons">
+              <a href=""><i class="fa-brands fa-facebook" style="color: #ffffff; font-size: 15px;"></i></a>
+              <a href=""><i class="fa-brands fa-instagram" style="color: #ffffff; font-size: 15px "></i></a>
+              <a href=""><i class="fa-brands fa-x-twitter" style="color: #ffffff; font-size: 15px"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin" style="color: #ffffff; font-size: 15px"></i></a>
+              <a href=""><i class="fa-brands fa-youtube" style="color: #ffffff; font-size: 15px"></i></a>
+            </a>
+          </div>
+          <div class="footer_vertical_line">
+             <div class="footer_more_info">
+            <a href="">KOI Private Policy</a>
+            <a href="">Use of Cookies</a>
+            <a href="">Terms of Use</a>
+            <a href="">Business Information</a>
+          </div>
+          <a class="Copyright" href="">Copyright © 2023 KOI All Rights Reserved.</a>
+          </div>
+        </div>
+        
+      
+      
+      </footer>
+
+
+
+
+
+
+    </div>
+    <script src="JS/burger.js"></script>
+    <script src="JS/products.js"></script>
+    <script src="https://kit.fontawesome.com/9fef183616.js" crossorigin="anonymous"></script>
+  </body>
+</html>
